@@ -1,3 +1,9 @@
+# Socials 
+# X: https://x.com/HeatherantaT
+# Web: 
+# linktree: https://linktr.ee/scrouchAI
+
+
 # Posture Detection System
 
 A real-time posture detection system using computer vision to help maintain good sitting posture and prevent neck strain.
