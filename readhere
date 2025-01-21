@@ -1,0 +1,54 @@
+Step 1: Clone the repository 🖥️
+Start by cloning the repo to your local machine. Run the following command in your terminal:
+
+bash
+git clone https://github.com/klukvinM/scrouch-.git
+Step 2: Set up a virtual environment ⚙️
+Move to the backend directory and create a virtual environment:
+
+bash
+cd backend
+python -m venv venv
+Then activate it:
+
+Windows:
+bash
+venv\Scripts\activate
+macOS/Linux:
+bash
+source venv/bin/activate
+Step 3: Install required packages 📦
+Make sure you're inside the backend directory and virtual environment is activated. Then install all the required dependencies:
+
+bash
+pip install -r requirements.txt
+Step 4: Start the backend server 🚀
+Start the FastAPI backend server:
+
+bash
+uvicorn main:app --reload
+Step 5: Open the app in your browser 🌐
+Open your browser and navigate to:
+
+http://localhost:8000/docs
+
+Step 6: Start posture detection 🧑‍💻
+Click the "Start Detection" button and allow access to your webcam. The app will start detecting your posture in real time!
+
+Step 7: Get feedback on your posture 🧘‍♀️
+The app will display:
+
+Your posture status (Good/Bad)
+Neck angle
+A timer for bad posture duration
+Audio alert after 2 minutes of bad posture
+Troubleshooting tips 🛠️
+If something isn't working:
+
+No webcam found: Check your camera connection or change the camera index in the code.
+Sound issues: Verify the sound file exists and check your system audio settings.
+MediaPipe errors: Ensure good lighting conditions and camera positioning.
+Contributing to the project 🤝
+Feel free to contribute! Open a PR if you have improvements or fixes to share.
+
+
